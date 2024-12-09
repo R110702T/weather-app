@@ -1,0 +1,89 @@
+body{
+    font-family:arial, sans-serif;
+    background:powderblue;
+    margin:0;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.search-container{
+    display: flex;
+    gap:10px;
+    background-image: linear-gradient(to left,rgb(55, 164, 157), rgb(184, 100, 108));
+    border-radius:15px;
+}
+input[type="text"]{
+    border:none;
+    padding:10px;
+    width:300px;
+    border-radius:20px;
+     box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
+     background-color:transparent;
+     outline:none;
+     
+}
+input::placeholder{
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+button{
+    border:none;
+    background-color:transparent;
+    color:rgb(130, 24, 24);
+    padding:10px;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:16px
+}
+
+.weather-container{
+    background-image: linear-gradient(to bottom, rgb(182, 198, 66), rgb(135, 23, 94));
+     width:350px;
+    border-radius:20px;
+    margin-top:20px;
+    padding:20px;
+    box-shadow:0 4px 6px rgba(192, 18, 18, 0.1);
+    text-align:center
+}
+
+.header{
+    margin-bottom:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.weather-info{
+    padding:20px;
+    border-radius:15px;
+
+}
+.temperature{
+    font-size:28px;
+    margin-bottom:10px;
+    color:rgb(69, 13, 95);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weather-status{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+      gap:10px;  
+     font-size:24px
+
+}
+.details{
+    margin-top:20px;
+    text-align:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(102, 15, 15);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.details div{
+    margin-bottom:5px;
+}
+h2{
+    font-size:20px;
+    color:rgb(57, 27, 94)
+}
